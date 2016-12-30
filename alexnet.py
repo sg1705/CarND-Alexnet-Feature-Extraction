@@ -29,6 +29,7 @@ def AlexNet(features, feature_extract=False):
     """
     # conv1
     # conv(11, 11, 96, 4, 4, padding='VALID', name='conv1')
+    # input (224x224x3) , filter = (11x11) = s[1,4,4,1], output=(55x55x96)
     k_h = 11
     k_w = 11
     c_o = 96

@@ -1,0 +1,13 @@
+name: Alexnet
+dependencies:
+- pip >= 9
+- jupyter
+- matplotlib
+- numpy
+- scipy
+- scikit-learn
+- pandas
+- pillow
+- menpo::opencv3
+- pip:
+  - tensorflow >= 0.12.0rc1
